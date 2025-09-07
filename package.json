@@ -1,0 +1,20 @@
+{
+  "name": "consulting",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Ishika355/Consulting#readme",
+  "bugs": {
+    "url": "https://github.com/Ishika355/Consulting/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ishika355/Consulting.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
