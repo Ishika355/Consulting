@@ -1,6 +1,6 @@
 {
   "builds": [
-    { "src": "public/**/*", "use": "@vercel/static" },
+    { "src": "/public/index.html", "use": "@vercel/static" },
     { "src": "api/**/*.js", "use": "@vercel/node" }
   ],
   "rewrites": [
@@ -10,7 +10,7 @@
   ],
   "headers": [
     {
-      "source": "/public/assets/(.*)",
+      "source": "/assets/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
@@ -21,4 +21,5 @@
   ]
 }
 
+ 
 
